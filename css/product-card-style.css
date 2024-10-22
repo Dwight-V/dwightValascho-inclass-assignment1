@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  object-fit: contain;
+  overflow: hidden;
+  margin-top: 120px;
+}
+
+/* #region ### Left */
+.product-card .left-img-col {
+  width: 50%;
+}
+
+.product-card .left-img-col img {
+  /* object-fit: contain; */
+  width: 100%;
+}
+/* #endregion */
+
+
+/* #region ### Right */
+.product-card .right-info-col {
+  width: 50%;
+  padding: 20px;
+}
+.product-card .right-info-col h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.product-card .right-info-col h5 {
+  font-size: 18px;
+  color: lightgray;
+  margin-bottom: 20px;
+}
+
+.product-card .right-info-col p {
+  font-size: 14px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+  /* #region color containers */
+.product-card .right-info-col .available-colors {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  font-size: 14px;
+}
+
+.product-card .right-info-col .available-colors .black-color-container {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.product-card .right-info-col .available-colors .red-color-container {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.product-card .right-info-col .available-colors .white-color-container {
+  width: 20px;
+  height: 20px;
+  background-color: beige;
+  border-radius: 50%;
+}
+  /* #endregion */
+
+  /* #region price */
+.product-card .right-info-col .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-card .right-info-col .price h4 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.product-card .right-info-col .price button {
+  background-color: black;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  color: white;
+}
+  /* #endregion */
+/* #endregion */
